@@ -72,6 +72,18 @@ main h2 {
   margin: 0;
 }
 
+main h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #272044;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #272044;
+}
 main p {
   font-weight: 400;
   font-size: 16px;
@@ -100,6 +112,15 @@ section.secondary {
 }
 .card {
   background: #ffffff;
+  margin-top: 50px;
+}
+
+.card-body {
+  padding: 30px;
+}
+.card p {
+  font-size: 14px;
+  padding: 15px;
 }
 .footer-grid {
   max-width: 1400px;
@@ -108,6 +129,21 @@ section.secondary {
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 64px;
 }
+
+.btn {
+  display: block;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background: #462cb3;
+  text-decoration: none;
+}
+
 footer {
   color: #ffffff;
   background-image: linear-gradient(
@@ -170,6 +206,9 @@ footer a {
   }
   main img {
     width: 100%;
+  }
+  .places-grid {
+    grid-template-columns: 1fr;
   }
   .footer-grid {
     grid-template-columns: 1fr;
